@@ -5,7 +5,6 @@
 {-# LANGUAGE KindSignatures        #-}
 {-# LANGUAGE MonoLocalBinds        #-}
 {-# LANGUAGE MultiParamTypeClasses #-}
-{-# LANGUAGE RankNTypes            #-}
 {-# LANGUAGE TemplateHaskell       #-}
 {-# LANGUAGE UnicodeSyntax         #-}
 
