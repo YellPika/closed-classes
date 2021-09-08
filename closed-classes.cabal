@@ -1,6 +1,6 @@
 cabal-version:      2.4
 name:               closed-classes
-version:            0.1.0.0
+version:            0.1
 synopsis:           Closed type class declarations
 description:        See "Data.Class.Closed" for explanation.
 homepage:           https://github.com/YellPika/closed-classes
@@ -10,7 +10,7 @@ license-file:       LICENSE
 author:             Anthony Vandikas
 maintainer:         yellpika@gmail.com
 copyright:          © 2021 Anthony Vandikas
-category:           Classes
+category:           Type System
 extra-source-files: CHANGELOG.md
 
 library
