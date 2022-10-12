@@ -20,6 +20,13 @@
           pkgs.haskell.packages.ghc92.haskell-language-server
         ];
       };
+      devShells.ghc94 = pkgs.mkShell {
+        buildInputs = [
+          pkgs.haskell.compiler.ghc94
+          pkgs.haskell.packages.ghc94.cabal-install
+          #pkgs.haskell.packages.ghc94.haskell-language-server
+        ];
+      };
       devShells.default = devShells.ghc810;
     });
 }
